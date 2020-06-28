@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Krona+One&family=Merriweather&family=Notable&family=Noto+Serif&family=Odibee+Sans&family=Open+Sans&family=Pacifico&family=Yanone+Kaffeesatz:wght@500&display=swap');
+* {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 0px;
+  font-family: 'Bungee', cursive;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+div>h1 {
+  line-height: 1;
+  font-size: 60px;
+  margin: 0px auto 60px;
+}
+.header {
+  background-image: url(https://www.equatoriallogistics.com/wp-content/uploads/2017/06/Career-BAckground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  color: white;
+  font-family: 'Notable', sans-serif;
+  font-size: 30px;
+}
+
+/*.................................................................................*/
+/*nav bar*/
+
+.nav{
+  overflow: hidden;
+  width: 100%;
+
+}
+  .topnav {
+    background-color: transparent;
+    display: block;
+  }
+
+  .topnav a {
+
+    float: left;
+    color: #dca579;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+  }
+
+  .topnav a:hover {
+    background-color: #a74940;
+    color: #dae9f0;
+  }
+
+  .topnav a.active {
+    color: #ffffff;
+  }
+
+
+  @media screen and (max-width: 800px) {
+
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: inline-block;
+    }
+  }
+  /*nav bar*/
+/*............................footer.....................................................*/
+.footer {
+  clear: both;
+  display: block;
+  background-color: rgba(20, 25, 30, 0.2);
+  font-family: 'Noto Serif', serif;
+  height: 40px;
+  color: #1c2023;
+  padding: 20px;
+  font-size: 15px;
+}
+p.footer {
+  top: 0px;
+}

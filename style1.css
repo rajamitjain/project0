@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Krona+One&family=Merriweather&family=Notable&family=Noto+Serif&family=Odibee+Sans&family=Open+Sans&family=Pacifico&family=Yanone+Kaffeesatz:wght@500&display=swap");
+.mid {
+  /*end of flex*/
+}
+.mid .container1, .mid .container2 {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  font-family: "Notable", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 2px #000000, 0 0 25px black, 0 0 5px black;
+  border-color: rgba(20, 25, 30, 0.5);
+}
+.mid .container1, .mid .container2 {
+  position: relative;
+  background-image: url("http://www.theoutplay.com/wp-content/uploads/2017/05/crossroads.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.mid .container1 strong, .mid .container2 strong {
+  font-size: 30px;
+  color: black;
+  text-shadow: 1px 1px 2px #000000, 0 0 25px grey, 0 0 10px white;
+}
+.mid .container1 div, .mid .container2 div {
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+}
+.mid .container1 .after10, .mid .container2 .after10, .mid .container1 .after12, .mid .container2 .after12 {
+  border-style: outset;
+  border-radius: 8px;
+  font-family: "Noto Serif", serif;
+  background: rgba(0, 0, 0, 0.8);
+}
+.mid .container1 .after10:hover, .mid .container2 .after10:hover, .mid .container1 .after12:hover, .mid .container2 .after12:hover {
+  background: rgba(62, 45, 1, 0);
+  border-style: inset;
+  border-color: black;
+  cursor: pointer;
+}
+.mid .container2 {
+  background-image: url(https://fqtemporary.files.wordpress.com/2009/11/serious_man_featured.jpg);
+  background-position: center;
+}
+.mid .container2 .after12 {
+  margin: auto;
+}
+.mid .container2 .quote2 {
+  font-family: "Noto Serif", serif;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px #000000, 0 0 25px black, 0 0 20px black;
+}
+.mid .grid {
+  display: grid;
+  grid-row-gap: 20px;
+  grid-template-columns: auto auto;
+  font-size: 50px;
+  font-family: "Bungee", cursive;
+}
+.mid .grid-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+  text-shadow: 1px 1px 2px #000000, 0 0 25px grey, 0 0 5px white;
+}
+.mid .btn {
+  color: white;
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: "Noto Serif", serif;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 3px;
+  text-decoration: none;
+}
+.mid .btn:hover {
+  background: rgba(62, 45, 1, 0);
+  border-style: inset;
+  border-color: black;
+  text-decoration: none;
+}
+.mid .exam {
+  background-image: url(https://www.enca.com/sites/default/files/optical-page-1-1561577-1279x852.jpg);
+}
+.mid .degree {
+  background-image: url(https://cdn.hipwallpaper.com/i/67/11/1zxZ72.jpg);
+  background-position: bottom;
+}
+
+/*# sourceMappingURL=style1.css.map */

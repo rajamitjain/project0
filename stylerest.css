@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Krona+One&family=Merriweather&family=Notable&family=Noto+Serif&family=Odibee+Sans&family=Open+Sans&family=Pacifico&family=Yanone+Kaffeesatz:wght@500&display=swap");
+* {
+  text-decoration: none;
+}
+
+body {
+  padding: 0px;
+  font-family: "Bungee", cursive;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+h3 {
+  margin-top: 100px;
+  font-size: 25px;
+  text-align: center;
+}
+
+h6 {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.flex0 {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+dd {
+  font-family: "Merriweather", serif;
+}
+
+ol li {
+  font-size: 15px;
+}
+
+ul li {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*.................................................................................*/
+.topnav {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(20, 28, 30, 0.9);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #dca579;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #a74940;
+  color: #dae9f0;
+}
+
+.topnav a.active {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    margin-top: 150px;
+  }
+
+  .topnav a {
+    float: none;
+    display: inline-block;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+/*nav bar*/
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/*......................examinations................*/
+div.table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+div.table td, div.table th {
+  border: 4px solid #141c1ee6;
+  text-align: left;
+  padding: 8px;
+}
+div.table td {
+  font-family: "Open Sans", sans-serif;
+}
+div.table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+img {
+  width: 100%;
+}
+
+h3 {
+  background-color: #dddddd;
+  font-family: "Krona One", sans-serif;
+  text-shadow: 1px 1px 2px #000000, 0 0 25px grey, 0 0 5px white;
+}
+
+/*.......................grid..................................*/
+.grid {
+  display: grid;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  grid-template-columns: auto auto;
+  font-family: "Merriweather", serif;
+}
+
+/*# sourceMappingURL=stylerest.css.map */
