@@ -73,7 +73,7 @@ div>h1 {
   }
   /*nav bar*/
 /*............................footer.....................................................*/
-.footer {
+#footer {
   clear: both;
   display: block;
   background-color: rgba(20, 25, 30, 0.2);
